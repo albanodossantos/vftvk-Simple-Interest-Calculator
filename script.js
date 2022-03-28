@@ -10,7 +10,7 @@ function compute()
     // We return the values computed here
     document.getElementById("result").innerHTML="If you deposit \<mark\>"+principal
     +"\</mark>,\<br\>at an interest rate of \<mark\>"+rate
-    +"\</mark\>%\<br\>.You will receive an amount of \<mark\>"+amount+"\</mark\>,\<br\> in the year \<mark\>"+year+"\</mark>\<br\>"
+    +"\</mark\>%\<br\>You will receive an amount of \<mark\>"+amount+"\</mark\>,\<br\> in the year \<mark\>"+year+"\</mark>\<br\>"
 
     // Validate the inputs if positive amount user can proceed 
     if (principal <= 0){
